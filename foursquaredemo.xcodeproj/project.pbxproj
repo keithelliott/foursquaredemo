@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6D833C1720AE3F00AF16BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D833B1720AE3F00AF16BB /* UIKit.framework */; };
+		CD6D833E1720AE3F00AF16BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D833D1720AE3F00AF16BB /* Foundation.framework */; };
+		CD6D83401720AE3F00AF16BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6D833F1720AE3F00AF16BB /* CoreGraphics.framework */; };
+		CD6D83461720AE3F00AF16BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD6D83441720AE3F00AF16BB /* InfoPlist.strings */; };
+		CD6D83481720AE3F00AF16BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D83471720AE3F00AF16BB /* main.m */; };
+		CD6D834C1720AE3F00AF16BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D834B1720AE3F00AF16BB /* AppDelegate.m */; };
+		CD6D834E1720AE3F00AF16BB /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D834D1720AE3F00AF16BB /* Default.png */; };
+		CD6D83501720AE3F00AF16BB /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D834F1720AE3F00AF16BB /* Default@2x.png */; };
+		CD6D83521720AE3F00AF16BB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D83511720AE3F00AF16BB /* Default-568h@2x.png */; };
+		CD6D83551720AE3F00AF16BB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6D83531720AE3F00AF16BB /* MainStoryboard.storyboard */; };
+		CD6D83581720AE3F00AF16BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D83571720AE3F00AF16BB /* ViewController.m */; };
+		CD6D83631720B12800AF16BB /* FoursquareAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = CD6D83621720B12800AF16BB /* FoursquareAuthentication.m */; };
+		CD6D83661720C7CF00AF16BB /* connect-black.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D83641720C7CF00AF16BB /* connect-black.png */; };
+		CD6D83671720C7CF00AF16BB /* connect-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6D83651720C7CF00AF16BB /* connect-black@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD6D83381720AE3F00AF16BB /* foursquaredemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foursquaredemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6D833B1720AE3F00AF16BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD6D833D1720AE3F00AF16BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD6D833F1720AE3F00AF16BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD6D83431720AE3F00AF16BB /* foursquaredemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "foursquaredemo-Info.plist"; sourceTree = "<group>"; };
+		CD6D83451720AE3F00AF16BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD6D83471720AE3F00AF16BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD6D83491720AE3F00AF16BB /* foursquaredemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foursquaredemo-Prefix.pch"; sourceTree = "<group>"; };
+		CD6D834A1720AE3F00AF16BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD6D834B1720AE3F00AF16BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD6D834D1720AE3F00AF16BB /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD6D834F1720AE3F00AF16BB /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD6D83511720AE3F00AF16BB /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD6D83541720AE3F00AF16BB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CD6D83561720AE3F00AF16BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD6D83571720AE3F00AF16BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD6D83611720B12800AF16BB /* FoursquareAuthentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoursquareAuthentication.h; sourceTree = "<group>"; };
+		CD6D83621720B12800AF16BB /* FoursquareAuthentication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoursquareAuthentication.m; sourceTree = "<group>"; };
+		CD6D83641720C7CF00AF16BB /* connect-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect-black.png"; sourceTree = "<group>"; };
+		CD6D83651720C7CF00AF16BB /* connect-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "connect-black@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6D83351720AE3F00AF16BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D833C1720AE3F00AF16BB /* UIKit.framework in Frameworks */,
+				CD6D833E1720AE3F00AF16BB /* Foundation.framework in Frameworks */,
+				CD6D83401720AE3F00AF16BB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6D832F1720AE3F00AF16BB = {
+			isa = PBXGroup;
+			children = (
+				CD6D83411720AE3F00AF16BB /* foursquaredemo */,
+				CD6D833A1720AE3F00AF16BB /* Frameworks */,
+				CD6D83391720AE3F00AF16BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6D83391720AE3F00AF16BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D83381720AE3F00AF16BB /* foursquaredemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6D833A1720AE3F00AF16BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D833B1720AE3F00AF16BB /* UIKit.framework */,
+				CD6D833D1720AE3F00AF16BB /* Foundation.framework */,
+				CD6D833F1720AE3F00AF16BB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD6D83411720AE3F00AF16BB /* foursquaredemo */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D834A1720AE3F00AF16BB /* AppDelegate.h */,
+				CD6D834B1720AE3F00AF16BB /* AppDelegate.m */,
+				CD6D83531720AE3F00AF16BB /* MainStoryboard.storyboard */,
+				CD6D83561720AE3F00AF16BB /* ViewController.h */,
+				CD6D83571720AE3F00AF16BB /* ViewController.m */,
+				CD6D83421720AE3F00AF16BB /* Supporting Files */,
+				CD6D83611720B12800AF16BB /* FoursquareAuthentication.h */,
+				CD6D83621720B12800AF16BB /* FoursquareAuthentication.m */,
+			);
+			path = foursquaredemo;
+			sourceTree = "<group>";
+		};
+		CD6D83421720AE3F00AF16BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD6D83641720C7CF00AF16BB /* connect-black.png */,
+				CD6D83651720C7CF00AF16BB /* connect-black@2x.png */,
+				CD6D83431720AE3F00AF16BB /* foursquaredemo-Info.plist */,
+				CD6D83441720AE3F00AF16BB /* InfoPlist.strings */,
+				CD6D83471720AE3F00AF16BB /* main.m */,
+				CD6D83491720AE3F00AF16BB /* foursquaredemo-Prefix.pch */,
+				CD6D834D1720AE3F00AF16BB /* Default.png */,
+				CD6D834F1720AE3F00AF16BB /* Default@2x.png */,
+				CD6D83511720AE3F00AF16BB /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6D83371720AE3F00AF16BB /* foursquaredemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6D835B1720AE3F00AF16BB /* Build configuration list for PBXNativeTarget "foursquaredemo" */;
+			buildPhases = (
+				CD6D83341720AE3F00AF16BB /* Sources */,
+				CD6D83351720AE3F00AF16BB /* Frameworks */,
+				CD6D83361720AE3F00AF16BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foursquaredemo;
+			productName = foursquaredemo;
+			productReference = CD6D83381720AE3F00AF16BB /* foursquaredemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6D83301720AE3F00AF16BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = gittielabs;
+			};
+			buildConfigurationList = CD6D83331720AE3F00AF16BB /* Build configuration list for PBXProject "foursquaredemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD6D832F1720AE3F00AF16BB;
+			productRefGroup = CD6D83391720AE3F00AF16BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6D83371720AE3F00AF16BB /* foursquaredemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6D83361720AE3F00AF16BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D83461720AE3F00AF16BB /* InfoPlist.strings in Resources */,
+				CD6D834E1720AE3F00AF16BB /* Default.png in Resources */,
+				CD6D83501720AE3F00AF16BB /* Default@2x.png in Resources */,
+				CD6D83521720AE3F00AF16BB /* Default-568h@2x.png in Resources */,
+				CD6D83551720AE3F00AF16BB /* MainStoryboard.storyboard in Resources */,
+				CD6D83661720C7CF00AF16BB /* connect-black.png in Resources */,
+				CD6D83671720C7CF00AF16BB /* connect-black@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6D83341720AE3F00AF16BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6D83481720AE3F00AF16BB /* main.m in Sources */,
+				CD6D834C1720AE3F00AF16BB /* AppDelegate.m in Sources */,
+				CD6D83581720AE3F00AF16BB /* ViewController.m in Sources */,
+				CD6D83631720B12800AF16BB /* FoursquareAuthentication.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD6D83441720AE3F00AF16BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6D83451720AE3F00AF16BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD6D83531720AE3F00AF16BB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6D83541720AE3F00AF16BB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6D83591720AE3F00AF16BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD6D835A1720AE3F00AF16BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6D835C1720AE3F00AF16BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foursquaredemo/foursquaredemo-Prefix.pch";
+				INFOPLIST_FILE = "foursquaredemo/foursquaredemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD6D835D1720AE3F00AF16BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foursquaredemo/foursquaredemo-Prefix.pch";
+				INFOPLIST_FILE = "foursquaredemo/foursquaredemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6D83331720AE3F00AF16BB /* Build configuration list for PBXProject "foursquaredemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6D83591720AE3F00AF16BB /* Debug */,
+				CD6D835A1720AE3F00AF16BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6D835B1720AE3F00AF16BB /* Build configuration list for PBXNativeTarget "foursquaredemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6D835C1720AE3F00AF16BB /* Debug */,
+				CD6D835D1720AE3F00AF16BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6D83301720AE3F00AF16BB /* Project object */;
+}
