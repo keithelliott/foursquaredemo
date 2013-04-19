@@ -10,8 +10,8 @@
 
 	// 5. setup some helpers so we don't have to hard-code everything
 #define FOURSQUARE_AUTHENTICATE_URL @"https://foursquare.com/oauth2/authorize"
-#define FOURSQUARE_CLIENT_ID @"N1TIGMOG1KA0JYXNEGVYYVAKC4OCHVTZ1YMEHBHCMGF0JUPD"
-#define FOURSQUARE_CLIENT_SECRET @"N3PD1LKV4V2Z5YSAEEQI5GQERFAYOZTZ04FURVJXXBUEHGMX"
+#define FOURSQUARE_CLIENT_ID @"YOUR CLIENT ID"
+#define FOURSQUARE_CLIENT_SECRET @"YOUR CLIENT SECRET"
 #define FOURSQUARE_REDIRECT_URI @"ios-app://redirect"
 
 @interface FoursquareAuthentication ()
